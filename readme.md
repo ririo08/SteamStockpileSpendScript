@@ -5,6 +5,8 @@ guthub超初心者なのでおかしいところだらけかもしれません�
 
 [積みゲー消化ルーレット](javascript:(function(d,j,s){s=d.createElement('script');s.src=j;d.body.appendChild(s);})(document,'https://raw.githubusercontent.com/ririo08/git-randomgame/master/randomscript.js')
 
+<a href="javascript:(function(d,j,s){s=d.createElement('script');s.src=j;d.body.appendChild(s);})(document,'https://raw.githubusercontent.com/ririo08/git-randomgame/master/randomscript.js'">積みゲー消化ルーレット</a>
+
 randomscript.jsは確認用のコンソールが入っているデータ、
 randomscript.min.jsはコンソールを抜いたデータ、
 bookmarklet_randomscript.jsはブックマークのURLに直接貼り付ける事ができるデータです。
