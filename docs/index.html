@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Steam積みゲー消化ルーレット</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>積みゲー消化ルーレット</h1>
+        <p>詳細な説明は<a href="https://rtalk.hatenablog.jp/entry/2019/07/29/003822" target="_blank">こちら</a>を御覧ください。</p>
+        <br>
+        <a class="bookmarklet"
+            href="javascript:(function(){classCount=document.getElementsByClassName('gameListRow').length;var a=Math.floor(Math.random()*classCount)+1;document.querySelectorAll('.gameListRow')[a].id='thisgameiscool';document.getElementById('thisgameiscool').style.backgroundColor='#2d1616';window.location.hash='';window.location.hash='thisgameiscool'})();">積みゲー消化ルーレット</a>
+        <p class="description">上記のリンクをブックマークバーにドラッグ＆ドロップで追加します。<br>Steamのid/自分のID/games/?tab=all へ行き、スクリプトを起動することで自分のゲームが一つだけ選ばれ、BGカラーが変わるのでそれを遊んでください。</p>
+        <p><a href="https://github.com/ririo08/SteamStockpileSpendScript" target="_blank">githubはこちら</a></p>
+        <footer>
+            <small class="w_cr">&copy;リリオ 2019</small>
+        </footer>
+    </div>
+
+</body>
+
+</html>
