@@ -1,0 +1,13 @@
+{
+  "name": "ririo-bookmarklet",
+  "version": "1.0.0",
+  "description": "リリオのブックマークレット",
+  "main": "main.js",
+  "repository": "https://github.com/ririo08/ririo-bookmarklet.git",
+  "author": "ririo08",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bookmarkletter": "^0.1.1"
+  }
+}
