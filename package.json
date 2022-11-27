@@ -1,0 +1,22 @@
+{
+  "name": "ririo-bookmarklet",
+  "version": "1.0.0",
+  "description": "リリオのブックマークレット",
+  "main": "main.js",
+  "repository": "https://github.com/ririo08/ririo-bookmarklet.git",
+  "author": "ririo08",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "build": "node main.js"
+  },
+  "dependencies": {
+    "bookmarkletter": "^0.1.1",
+    "fs-extra": "^10.1.0",
+    "marked": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
