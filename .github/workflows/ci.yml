@@ -42,7 +42,7 @@ jobs:
         run: yarn --production
 
       - name: Generate 💚
-        run: node main.js
+        run: yarn build
 
       - name: Github Pages Deploy 🏳️
         uses: peaceiris/actions-gh-pages@v3
