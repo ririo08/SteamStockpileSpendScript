@@ -33,5 +33,6 @@ const res = html.replace("<!-- TARGET -->", doc)
 
 fs.mkdirsSync("dist");
 fs.copySync("docs/css/", "dist/css/")
+fs.copySync("docs/img/", "dist/img/")
 fs.writeFileSync("dist/index.html", res.replace(/\s{2}/g, '').replace(/\n/g, ''))
 
