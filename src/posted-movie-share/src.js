@@ -1,11 +1,9 @@
 // 情報取得
-const videoID = document.querySelector('meta[itemprop="videoId"]').content
-const videoTitle = document.querySelector('meta[name="title"]').content
-const videoURL = document.querySelector('link[rel="shortlinkUrl"]').href
+const videoTitle = document.querySelector('meta[name="title"]').content;
+const videoURL = document.querySelector('link[rel="shortlinkUrl"]').href;
 
 // ツイート文作成
-const tweetText = `動画投稿▼%0a%0a${videoTitle}`;
+const tweetText = `動画投稿▼\n\n${videoTitle}\n${videoURL}`;
 
-// URLを作成
-const tweetURL = `https://twitter.com/intent/tweet?url=${videoURL}&text=${tweetText}`;
-window.open(tweetURL, '_blank');
+// コピー
+navigator.clipboard.writeText(tweetText);
